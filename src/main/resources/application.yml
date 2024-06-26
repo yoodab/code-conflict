@@ -1,0 +1,20 @@
+server:
+    port: 8084
+
+spring:
+    application:
+        name: practice-conflict
+
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3333/mydatabase
+        username: myuser
+        password: secret
+
+    jpa:
+        hibernate.ddl-auto: create
+        defer-datasource-initialization: ture
+
+    sql:
+        init:
+            mode: always

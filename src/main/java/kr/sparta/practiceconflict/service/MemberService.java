@@ -8,4 +8,7 @@ public class MemberService {
     public Member save(Member member) {
         return null;
     }
+    public Member findById(Long id) {
+        return null;
+    }
 }
